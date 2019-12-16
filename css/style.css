@@ -108,32 +108,30 @@ a:focus {
     display: inline-block;
     /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
     
-    background-color: #7058d8;
+    background-color: #2b0faa;
     color: #ffffff !important;
     /* needed to override the default link color */
     
     font-weight: 400;
     padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #45368b;
+    border-radius: 5px;
+    border-bottom: 5px solid #1d0877;
     /* width of the border, type, color */
     
     transition: 0.2s opacity;
 }
 .button:hover {
-    opacity: 0.8;
-    /* Reduces the opacity of the button to 80% */
-    
+    opacity: 80%;
     text-decoration: none;
 }
 .button.contact {
     background-color: transparent;
-    color: #7058d8 !important;
+    color: #ff7f50 !important;
     text-transform: uppercase;
-    border: 2px solid #7058d8;
+    border: 2px solid #ff7f50;
 }
 .button.contact:hover {
-    background-color: #4324ce;
+    background-color: #ff7f50;
     color: #ffffff !important;
 }
 #demoparagraph {
