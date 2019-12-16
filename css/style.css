@@ -147,7 +147,7 @@ a:focus {
 .navbar {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
+    overflow: none;
 }
 
 
@@ -156,12 +156,12 @@ a:focus {
 .navbar a {
     float: left;
     padding: 12px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    font-size: 17px;
-    width: 25%;
-    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center;
+    font-size: 16px;
+    width: 15%;
+    /* equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: left;
     /* If you want the text to be centered */
 }
 
@@ -169,14 +169,14 @@ a:focus {
 /* Add a background color on mouse-over */
 
 .navbar a:hover {
-    background-color: #000;
+    background-color: rgb(94, 66, 255);
 }
 
 
 /* Style the current/active link */
 
 .navbar a.active {
-    background-color: #4caf50;
+    background-color: #710fe0;
 }
 
 
