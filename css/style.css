@@ -1,40 +1,39 @@
 /* style.css */
 
 p {
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #000000;
     font-size: 16px;
 }
 
 h1 {
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #000000;
     font-size: 2.75em;
     font-weight: 700;
 }
 
 h2 {
-    font-family: "Karla", sans-serif;
-    color: #000000;
+    font-family: "Montserrat", sans-serif;
     font-size: 2.25em;
     font-weight: 700;
 }
 
 h3 {
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.75em;
     font-weight: 400;
 }
 
 h4 {
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.35em;
     font-weight: 400;
 }
 
 body {
     background-color: #ffffff;
-    font-family: "Karla", sans-serif;
+    font-family: "Montserrat", sans-serif;
     /*font-family: 'Roboto', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -139,55 +138,4 @@ a:focus {
     -webkit-column-rule: 1px solid rgba(28, 110, 164, 0.5);
     -moz-column-rule: 1px solid rgba(28, 110, 164, 0.5);
     column-rule: 1px solid rgba(28, 110, 164, 0.5);
-}
-
-
-/* Style the navigation menu */
-
-.navbar {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    overflow: none;
-}
-
-
-/* Navigation links */
-
-.navbar a {
-    float: left;
-    padding: 12px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 16px;
-    width: 15%;
-    /* equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: left;
-    /* If you want the text to be centered */
-}
-
-
-/* Add a background color on mouse-over */
-
-.navbar a:hover {
-    background-color: rgb(94, 66, 255);
-}
-
-
-/* Style the current/active link */
-
-.navbar a.active {
-    background-color: #710fe0;
-}
-
-
-/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-
-@media screen and (max-width: 500px) {
-    .navbar a {
-        float: none;
-        display: block;
-        width: 100%;
-        text-align: left;
-        /* If you want the text to be left-aligned on small screens */
-    }
 }
