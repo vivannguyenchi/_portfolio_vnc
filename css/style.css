@@ -1,4 +1,38 @@
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+
+@media only screen and (min-width: 640px) {}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+
+@media only screen and (min-width: 1024px) {}
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+
+@media only screen and (min-width: 1440px) {}
+
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+
+@media only screen and (min-width: 1920px) {}
+
+
 /* style.css */
+
+nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+}
 
 nav>ul {
     list-style-type: none;
@@ -25,6 +59,7 @@ nav>ul>li>a {
 
 header {
     background-color: #e9e8ff;
+    padding: 20px 0 13px;
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 10px;
@@ -32,6 +67,7 @@ header {
     margin: 0px;
     /* border-bottom: 3px solid #ffffff; */
     position: fixed;
+    text-align: unset;
 }
 
 * {
