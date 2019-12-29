@@ -2,14 +2,115 @@
 Medium devices (640px and larger)
 ================================= */
 
-@media only screen and (min-width: 640px) {}
+@media only screen and (min-width: 640px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+    nav {
+        width: 100%;
+        float: right;
+        margin-top: 4px;
+    }
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
 
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    [class*="col-"] {
+        float: left;
+    }
+}
 
 
 /* ==============================
@@ -25,10 +126,22 @@ Extra-large devices (1920px or larger)
 
 @media only screen and (min-width: 1920px) {}
 
+#mainprojects {
+    float: left;
+    margin: 0 5%;
+    width: 60%;
+}
+
+aside {
+    float: left;
+    margin: 0 5% 0 0;
+    width: 5%;
+}
+
 
 /* style.css */
 
-nav {
+#nav {
     width: auto;
     float: right;
     margin-top: 4px;
@@ -53,7 +166,7 @@ nav>ul>li>a {
 #hero {
     /* background-color: #3415e4; */
     padding: px 0;
-    display: inline-block;
+    display: block;
     width: 100%;
 }
 
@@ -76,7 +189,7 @@ header {
 
 .logo {
     padding: 50px;
-    text-align: center;
+    text-align: auto;
 }
 
 .container {
@@ -167,7 +280,7 @@ selector {
     margin: 0 auto;
     /* No spacing to top and bottom and auto spacing to left and  right */
     position: static;
-    float: none;
+    float: relative;
     width: 80%;
 }
 
@@ -184,6 +297,11 @@ img {
     max-width: 100%;
     height: auto;
     float: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
 }
 
 .center {
